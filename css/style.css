@@ -1,0 +1,84 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(178, 230, 202);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs .data{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    text-align: center;  
+    flex-direction: column;
+}
+button{
+    width: 85%;
+    height: 30px;
+    background-color: rgb(178, 230, 202);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding: 4px;
+    border: 1px solid rgb(178, 230, 202);
+}
+input[placeholder]{
+ text-align: center;
+ font-size: 18px;
+ color: rgb(91, 173, 245);
+}
+
+label,h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.list .box{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+.box .item{
+    background-color:  rgb(178, 230, 202);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: move;
+    color: rgb(43, 47, 50);
+    text-align: center;
+    overflow: auto;
+}
